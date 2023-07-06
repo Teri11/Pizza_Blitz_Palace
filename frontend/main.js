@@ -1,1 +1,1 @@
-alert("Accept Cookies!")
+// alert("Accept Cookies!")
