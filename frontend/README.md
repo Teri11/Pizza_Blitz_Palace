@@ -1,0 +1,2 @@
+## PIZZA BLITZ PALACE
+Imagine a culinary oasis where every bite transports you to a realm of heavenly flavors, where pizzas are crafted with artistry and passion. Welcome to Pizza Blitz Palace, the ultimate restaurant that stands out as the undisputed champion of taste sensations!
