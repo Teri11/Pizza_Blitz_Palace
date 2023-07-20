@@ -5,5 +5,7 @@
 .carousel-caption{
    text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 4rem;
 }
