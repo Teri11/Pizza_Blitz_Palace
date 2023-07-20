@@ -1,6 +1,7 @@
 #picpic{
     height: 43rem;
     width: 100%;
+    border-radius: 1rem;
 }
 .carousel-caption{
    text-align: center;
@@ -9,3 +10,16 @@
     font-weight: 900;
     line-height: 4rem;
 }
+#navbarNav{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+/* about us starts*/
+#about{
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+/* about us ends */
