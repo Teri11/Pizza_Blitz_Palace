@@ -2,3 +2,8 @@
     height: 43rem;
     width: 100%;
 }
+.carousel-caption{
+   text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
