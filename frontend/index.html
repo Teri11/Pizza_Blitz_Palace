@@ -449,36 +449,35 @@
 <!-- Delivery info modal -->
 <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">PIZZA BLITZ PALACE Delivery🍕🍕</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              <form class="forms">
-                  <div class="mb-3">
-                      <label for="recipient-name" class="col-form-label">NAME:</label>
-                      <input id="namee" type="text" class="form-control bg-transparent" placeholder="Name..."
-                          required>
-                  </div>
-                  <div class="mb-3">
-                      <label for="message-text" class="col-form-label">CONTACTS:</label>
-                      <input id="contactt" type="text" class="form-control bg-transparent"
-                          placeholder="Contact..." required>
-                  </div>
-                  <div class="mb-3">
-                      <label for="message-text" class="col-form-label">DESTINATION:</label>
-                      <input id="destinationn" type="text" class="form-control bg-transparent"
-                          placeholder="Destination..." required>
-                  </div>
-              </form>
-          </div>
-          <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
-              <button id="btnn" type="button" class="btn btn-secondary">Order</button>
-              <span id="end"></span>
-          </div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PIZZA BLITZ PALACE Delivery🍕🍕</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+        <form class="forms">
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">NAME:</label>
+            <input id="namee" type="text" class="form-control bg-transparent" placeholder="Name..." required>
+            <small class="text-danger d-none" id="nameWarning">Please enter letters only.</small>
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">CONTACTS:</label>
+            <input id="contactt" type="text" class="form-control bg-transparent" placeholder="Contact..." required>
+            <small class="text-danger d-none" id="contactWarning">Please enter numbers only.</small>
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">DESTINATION:</label>
+            <input id="destinationn" type="text" class="form-control bg-transparent" placeholder="Destination..." required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+        <button id="btnn" type="button" class="btn btn-secondary">Order</button>
+        <span id="end"></span>
+      </div>
+    </div>
   </div>
 </div>
 <!-- End of delivery info modal -->
@@ -610,12 +609,8 @@
   </div>
 </footer>
 
-
-
-
-
-  </body>
-  <script src="JS/"></script>
+</body>
+  <script src="JS/main.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
