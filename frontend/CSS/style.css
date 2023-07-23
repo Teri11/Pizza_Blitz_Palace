@@ -158,12 +158,10 @@ p {
 /* testimonials ends */
 
 /* modal start */
-.modal-body{
+#exampleModal{
     font-family: 'Times New Roman', Times, serif;
 }
-.modal-footer{
-    font-family: 'Times New Roman', Times, serif;
-}
+
 /* modal end */
 
 /* footer starts */

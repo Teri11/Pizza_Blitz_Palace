@@ -389,13 +389,101 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        <button id="addPizzaButton" type="button" class="btn btn-secondary">Click to Add</button>
+      
+        <button id="add" type="submit" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Click to Add</button>
       </div>
     </div>
   </div>
 </div>
 
 <!-- modal ends -->
+
+ <!-- Modal checkout -->
+
+<!-- Modal Checkout -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header float-right">
+              <h5>PIZZA BLITZ PALACE Checkout Payment</h5>
+              <div class="text-right">
+                  <i data-dismiss="modal" aria-label="Close" class="fa fa-close"></i>
+              </div>
+          </div>
+          <div class="modal-body">
+              <div>
+                  <table class="table table-bordered">
+                      <thead>
+                          <tr>
+                              <th scope="col">Pizza Name</th>
+                              <th scope="col">Size</th>
+                              <th scope="col">Crust</th>
+                              <th scope="col">Toppings</th>
+                              <th scope="col">Quantity</th>
+                              <th scope="col">Price</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th scope="col" id="name"></th>
+                              <th scope="col" id="size"></th>
+                              <th scope="col" id="crust"></th>
+                              <th scope="col" id="toppings"></th>
+                              <th scope="col" id="quantity"></th>
+                              <th scope="col" id="price"></th>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              <button id="proceed" type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1" data-bs-whatever="@getbootstrap">Proceed to Checkout</button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- End of Modal Checkout -->
+
+<!-- Delivery info modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PIZZA BLITZ PALACE Delivery🍕🍕</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form class="forms">
+                  <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">NAME:</label>
+                      <input id="namee" type="text" class="form-control bg-transparent" placeholder="Name..."
+                          required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="message-text" class="col-form-label">CONTACTS:</label>
+                      <input id="contactt" type="text" class="form-control bg-transparent"
+                          placeholder="Contact..." required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="message-text" class="col-form-label">DESTINATION:</label>
+                      <input id="destinationn" type="text" class="form-control bg-transparent"
+                          placeholder="Destination..." required>
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+              <button id="btnn" type="button" class="btn btn-secondary">Order</button>
+              <span id="end"></span>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- End of delivery info modal -->
+
+
 
 <!-- Testimonials starts-->
 <!-- testimonials -->
