@@ -1,68 +1,91 @@
 @import url('https://fonts.cdnfonts.com/css/graffiti-font');
+
 body {
     margin: 0;
     padding: 0;
-  }
-#picpic{
+}
+
+#picpic {
     height: 43rem;
     width: 100%;
     border-radius: 1rem;
 }
-.navbar-brand{
-    color:rgb(224, 160, 9);
+
+.navbar-brand {
+    color: rgb(224, 160, 9);
     font-family: 'Graffiti font', sans-serif;
     max-width: 100%;
     padding: 0 15px;
     animation: blink 10s infinite;
-    
+
 }
+
 /* Tomato Red (#FF6347): ,Pepperoni Brown-Red (#8B0000):: ,Basil Green (#228B22):, Golden Brown (#DAA520):*/
 @keyframes blink {
-    0% { color:#FF6347; } 
-    25% { color: #8B0000; }
-    50% { color: #228B22; }
-    75% { color: #DAA520; }
-    100% { color: rgb(224, 160, 9); 
-   
-}
-  }
+    0% {
+        color: #FF6347;
+    }
 
-.carousel-caption{
+    25% {
+        color: #8B0000;
+    }
+
+    50% {
+        color: #228B22;
+    }
+
+    75% {
+        color: #DAA520;
+    }
+
+    100% {
+        color: rgb(224, 160, 9);
+
+    }
+}
+
+.carousel-caption {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size: 2rem;
     line-height: 4rem;
-    color:white;
+    color: white;
     line-height: 3.5rem;
     margin: 0 auto;
-    
+
 }
-.top{
-    background-color:white;
+
+.top {
+    background-color: white;
     padding: 1rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000; /* Ensure the navbar is above other content */
+    z-index: 1000;
+    /* Ensure the navbar is above other content */
 }
 
-#navbarNav{
+#navbarNav {
     font-family: 'Graffiti font', sans-serif;
     font-weight: 900;
     font-size: 1rem;
-    
-  
+
+
 }
+
 #navbarNav li:hover {
-    background-color: #f9f9f9; /* Change background color on hover */
-    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
-    text-decoration: underline; /* Underline the list item on hover */
-  }
+    background-color: #f9f9f9;
+    /* Change background color on hover */
+    cursor: pointer;
+    /* Add a pointer cursor to indicate interactivity */
+    text-decoration: underline;
+    /* Underline the list item on hover */
+}
 
 
 /* about us starts*/
-#about{
+#about {
     color: black;
     text-align: center;
     margin-top: 1.5rem;
@@ -70,11 +93,13 @@ body {
     font-weight: 900;
     text-transform: uppercase;
 }
+
 .about-text {
     text-align: center;
-    
-  }
-  .about-image {
+
+}
+
+.about-image {
     display: block;
     max-width: 100%;
     height: auto;
@@ -82,57 +107,71 @@ body {
     border: 4px solid rgb(224, 160, 9);
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  p {
+}
+
+p {
     font-size: 18px;
     margin-bottom: 10px;
     font-family: 'Times New Roman', Times, serif;
-  }
-  .container1 {
+}
+
+.container1 {
     max-width: 960px;
     margin: 20px auto;
     padding: 20px;
-  }
-  #marquee{
+}
+
+#marquee {
     max-width: 100%;
-    color:rgb(224, 160, 9);
-    direction: left;  
-  }
+    color: rgb(224, 160, 9);
+    direction: left;
+}
+
 /* about us ends */
 
 /* menu starts */
-#pizz{
-    margin-left:5rem;
-    margin-top:2rem;
-    border-radius:1rem;
-  }
-  .container{
-    display:flex;
+#pizz {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.container {
+    display: flex;
     justify-content: space-evenly;
-    
-  }
-  .img-fluid:hover{
-    -ms-transform: scale(1.0); /* IE 9 */
-    -webkit-transform: scale(1.0); /* Safari 3-8 */
-    transform: scale(1.1); 
-  }
-  #pizz:hover{
-    -ms-transform: scale(1.0); /* IE 9 */
-    -webkit-transform: scale(1.0); /* Safari 3-8 */
-    transform: scale(1.1); 
+
+}
+
+.img-fluid:hover {
+    -ms-transform: scale(1.0);
+    /* IE 9 */
+    -webkit-transform: scale(1.0);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#pizz:hover {
+    -ms-transform: scale(1.0);
+    /* IE 9 */
+    -webkit-transform: scale(1.0);
+    /* Safari 3-8 */
+    transform: scale(1.1);
     opacity: 0.5;
     cursor: pointer;
-  }
-  .checked {
-    color: orange;
-  }
-.card-title{
-    font-family: 'Times New Roman', Times, serif;
-    color: black; 
 }
-.card-body >h6{
+
+.checked {
+    color: orange;
+}
+
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.card-body>h6 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
-/* menu ends */
 
+/* menu ends */
