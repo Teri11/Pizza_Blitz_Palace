@@ -28,15 +28,13 @@ body {
   }
 
 .carousel-caption{
-    /* text-align: center; */
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size: 2rem;
     line-height: 4rem;
     color:white;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     margin: 0 auto;
-    max-width: 26rem;
     
 }
 .top{
@@ -52,7 +50,6 @@ body {
 #navbarNav{
     font-family: 'Graffiti font', sans-serif;
     font-weight: 900;
-    /* line-height: 3rem;  */
     font-size: 1rem;
     
   
@@ -62,6 +59,7 @@ body {
     cursor: pointer; /* Add a pointer cursor to indicate interactivity */
     text-decoration: underline; /* Underline the list item on hover */
   }
+
 
 /* about us starts*/
 #about{
