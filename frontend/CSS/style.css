@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/graffiti-font');
 body {
     margin: 0;
     padding: 0;
@@ -7,11 +8,17 @@ body {
     width: 100%;
     border-radius: 1rem;
 }
+.navbar-brand{
+    color:rgb(224, 160, 9);
+    font-family: 'Graffiti font', sans-serif;
+   
+  
+    max-width: 100%;
+}
 
 .carousel-caption{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-  
     font-weight: 900;
     line-height: 4rem;
     color:white;
