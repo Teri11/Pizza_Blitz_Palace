@@ -157,6 +157,12 @@ p {
 
 /* testimonials ends */
 
+/* modal start */
+.modal-title{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* modal end */
+
 /* footer starts */
 #btn2 {
     float: right;
@@ -174,6 +180,11 @@ p {
 
 #copyright {
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.text-white{
+    text-decoration: none;
+
 }
 
 /* footer ends */

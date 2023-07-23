@@ -51,10 +51,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">AboutUs</a>
+            <a class="nav-link active" href="#about">AboutUs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Menu</a>
+            <a class="nav-link active" href="#pitzza">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Order Online</a>
@@ -132,7 +132,7 @@
 <!-- menu starts -->
 <div class="container-fluid">
   <h1 id="about">🍕 m &nbsp; e &nbsp; n &nbsp; u 🍕</h1>
-  <div class="container">
+  <div id="pitzza" class="container">
     <div class="row">
       <!-- First card -->
       <div class="col-lg-4 col-md-6">
@@ -306,6 +306,96 @@
 
 <!-- menu ends -->
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">WELCOME TO PIZZA BLITZ PALACE MENU 🍕.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="pizzaForm">
+          <!-- Pizza Name -->
+          <div class="mb-3">
+            <label for="pizzaName" class="form-label"><b>Choose your pizza:</b></label>
+            <select class="form-select" required aria-label="Default select example" id="pizzaName">
+              <option selected>select pizza</option>
+              <option id="neapolitan" name="pizz" value="1">neapolitan</option>
+              <option id="chicago" name="pizz" value="2">chicago</option>
+              <option id="new_york_style" name="pizz" value="3">new_york_style</option>
+              <option id="sicilian" name="pizz" value="4">sicilian</option>
+              <option id="greek" name="pizz" value="5">greek</option>
+              <option id="california" name="pizz" value="6">california</option>
+              <option id="detroit" name="pizz" value="7">detroit</option>
+              <option id="saint_louis" name="pizz" value="8">saint_louis</option>
+            </select>
+          </div>
+          <!-- Pizza Size -->
+          <div class="mb-3">
+            <label class="form-label"><b>Choose your pizza size:</b></label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaSize" id="small" value="small" checked>
+              <label class="form-check-label" for="small">Small-800</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaSize" id="medium" value="medium">
+              <label class="form-check-label" for="medium">Medium-1000</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaSize" id="large" value="large">
+              <label class="form-check-label" for="large">Large-1500</label>
+            </div>
+          </div>
+          <!-- Pizza Crust -->
+          <div class="mb-3">
+            <label class="form-label"><b>Choose your pizza crust:</b></label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaCrust" id="crispy" value="crispy" checked>
+              <label class="form-check-label" for="crispy">Crispy-100</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaCrust" id="stuffed" value="stuffed">
+              <label class="form-check-label" for="stuffed">Stuffed-100</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaCrust" id="gluten_free" value="gluten_free">
+              <label class="form-check-label" for="gluten_free">Gluten-free-100</label>
+            </div>
+          </div>
+          <!-- Pizza Toppings -->
+          <div class="mb-3">
+            <label class="form-label"><b>Choose your pizza toppings:</b></label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaToppings" id="pepperoni" value="pepperoni" checked>
+              <label class="form-check-label" for="pepperoni">Pepperoni-50</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaToppings" id="supreme" value="supreme">
+              <label class="form-check-label" for="supreme">Supreme-50</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pizzaToppings" id="hawaiian" value="hawaiian">
+              <label class="form-check-label" for="hawaiian">Hawaiian-50</label>
+            </div>
+          </div>
+          <!-- Pizza Quantity -->
+          <div>
+            <h6>Pizza Quantity</h6>
+            <input id="pizzaQuantity" name="pizzaQuantity" type="number" min="1" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button id="addPizzaButton" type="button" class="btn btn-secondary">Click to Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal ends -->
+
 <!-- Testimonials starts-->
 <!-- testimonials -->
 <h1 id="test" style="text-align:center;color:black;font-weight: bold;">T&nbspE&nbspS&nbspT&nbspI&nbspM&nbspO&nbspN&nbspI&nbspA&nbspL&nbspS</h1>
@@ -427,7 +517,7 @@
 
   <!-- Copyright -->
   <div id="copyright" class="text-center p-3 bg-black">
-    © 2023 Pizza Blitz Palace | <a href="mailto:augustineteri157@gmail.com" class="text-white">augustineteri157@gmail.com</a>
+    © 2023 Pizza Blitz Palace || <a href="mailto:augustineteri157@gmail.com" class="text-white">pizzablitzpalace@gmail.com</a>
   </div>
 </footer>
 
