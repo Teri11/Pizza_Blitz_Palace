@@ -179,3 +179,14 @@ p {
 /* Testimonials starts */
 
 /* testimonials ends */
+
+#btn2{
+    float: end;
+    margin-left: 75rem;
+    background-color:white;
+    color: black;
+  
+  }
+  #btn2:hover{
+    color:rgb(224, 160, 9);
+  }
