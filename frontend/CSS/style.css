@@ -154,7 +154,9 @@ p {
 /* menu ends */
 
 /* Testimonials starts */
-
+#test{
+    font-family: 'Times New Roman', Times, serif;
+}
 /* testimonials ends */
 
 /* modal start */
