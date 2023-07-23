@@ -7,10 +7,10 @@
 .carousel-caption{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: 900;
     line-height: 4rem;
-    color: black;
+    color:white;
     
 }
 #navbarNav{
@@ -21,7 +21,7 @@
 #about{
     color: black;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
 }
