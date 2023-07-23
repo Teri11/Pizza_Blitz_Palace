@@ -68,9 +68,11 @@ body {
     margin-top: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
+    text-transform: uppercase;
 }
 .about-text {
     text-align: center;
+    
   }
   .about-image {
     display: block;
@@ -94,5 +96,8 @@ body {
   #marquee{
     max-width: 100%;
     color:rgb(224, 160, 9);
+    direction: left;
+   
+    
   }
 /* about us ends */
