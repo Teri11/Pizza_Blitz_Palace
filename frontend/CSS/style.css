@@ -12,7 +12,8 @@ body {
     color:rgb(224, 160, 9);
     font-family: 'Graffiti font', sans-serif;
     max-width: 100%;
-    animation: blink 1s infinite;
+    padding: 0 15px;
+    animation: blink 10s infinite;
     
 }
 /* Tomato Red (#FF6347): ,Pepperoni Brown-Red (#8B0000):: ,Basil Green (#228B22):, Golden Brown (#DAA520):*/
@@ -49,10 +50,10 @@ body {
 }
 
 #navbarNav{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Graffiti font', sans-serif;
     font-weight: 900;
-    line-height: 3rem; 
-    font-size: 1.4rem;
+    /* line-height: 3rem;  */
+    font-size: 1rem;
     
   
 }
