@@ -11,17 +11,31 @@ body {
 .navbar-brand{
     color:rgb(224, 160, 9);
     font-family: 'Graffiti font', sans-serif;
-   
-  
     max-width: 100%;
+    animation: blink 1s infinite;
+    
 }
+/* Tomato Red (#FF6347): ,Pepperoni Brown-Red (#8B0000):: ,Basil Green (#228B22):, Golden Brown (#DAA520):*/
+@keyframes blink {
+    0% { color:#FF6347; } 
+    25% { color: #8B0000; }
+    50% { color: #228B22; }
+    75% { color: #DAA520; }
+    100% { color: rgb(224, 160, 9); 
+   
+}
+  }
 
 .carousel-caption{
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
+    font-size: 2rem;
     line-height: 4rem;
     color:white;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    max-width: 26rem;
     
 }
 .top{
