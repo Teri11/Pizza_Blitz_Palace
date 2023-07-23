@@ -96,8 +96,6 @@ body {
   #marquee{
     max-width: 100%;
     color:rgb(224, 160, 9);
-    direction: left;
-   
-    
+    direction: left;  
   }
 /* about us ends */
